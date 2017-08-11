@@ -1,0 +1,37 @@
+*{margin:0;padding:0;}
+ul,li{list-style:none;}
+a{text-decoration:none;}
+
+
+/*----------App页面开始-------------*/
+.App_wrap{width:100%;height:150px;background-color:#002147;}
+.App{width:100%}
+.header_top{width:100%;height:100px;display:flex;justify-content:space-between;align-items:center;}
+.logo{height:100px;}
+.pic_right{width:310px;height:100px;background:url("../img/home/header1.png") no-repeat;display:flex;justify-content:center;align-items:center;}
+.pic_right span{display:block;width:100px;height:30px;background:#3479d8;text-align:center;line-height:30px;color:white;font-size:20px;margin-top:40px;margin-left:80px;border-radius:5px;cursor:pointer;}
+
+
+
+.nav_wrap{width:100%;height:50px;}
+.nav{width:100%;height:50px;background:#00152e;display:flex;justify-content:space-between;align-items:center;}
+.nav ul{height:50px;width:100%;display:flex;align-items:center;}
+.nav ul li{text-align:center;height:50px;}
+
+.nav ul li a{display:block;font-size:16px;color:white;padding:0 30px;display:block;height:50px;text-align:center;line-height:50px;}
+.nav ul li:nth-of-type(1) a{background:#3373cb;width:100px;}
+.login{width:80px;height:30px;display:block;color:white;border:2px solid white;border-radius:5px;text-align:center;line-height:30px;margin-right:65px;}
+
+
+
+
+/*----------App页面结束-----------*/
+
+/*-----------home页面开始--------*/
+.wrap{width:100%;}
+.banner{width:100%;height:325px;}
+.banner img{width:100%;height:325px;}
+#active{bottom:40px;left:-5%;}
+/*-----------home页面结束--------*/
+
+
